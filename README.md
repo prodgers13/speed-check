@@ -2,9 +2,9 @@
 This is a jupyter notebook that I put together when I was frustrated by all the speeding cars passing my window. I live in a rural area on a two lane road. The speed limit is 35 mph on the road, with some areas marked for slower speeds. My house in on a straight section of the road, and cars can really get going. So I built this notebook to use my USB camera and a Linux computer to host a Jupyter notebook to solve my problem.
 ## The primary module is speed-watch.ipynb, which does the following:
 - It sets up the necessary imports: 
--     from datetime import datetime
--     import os
--     import cv2
+-    from datetime import datetime
+-    import os
+-    import cv2
 -  Initializes some variables
 -  Creates some helper functions:
 -    get_filename(): This function builds a file name from a date and time stamp.
